@@ -1,0 +1,110 @@
+.listOfArtists {
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .0), 23px 0 20px -23px rgba(0, 0, 0, .0), 0 0 40px rgba(0, 0, 0, .05) inset;
+    width: 70%;
+    padding-bottom: 25px;
+    margin-bottom:20px;
+}
+
+.artists {
+    font-weight: bold;
+    font-size: 22px;
+    list-style-type: none;
+    margin: 0 auto;
+    position: relative;
+    /* width: 500px; */
+    text-align: center;
+    margin-bottom: 5px;
+    /* margin-top: 20px; */
+    position: relative;
+    padding-top: 10px;
+}
+
+.albums {
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0 auto;
+    position: relative;
+    /* width: 500px; */
+    text-align: center;
+    margin-bottom: 2px;
+    /* padding-top: 10px; */
+}
+
+.songs {
+    list-style-type: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .0), 23px 0 20px -23px rgba(0, 0, 0, .0), 0 0 40px rgba(0, 0, 0, .05) inset;
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom:10px;
+}
+
+.artist {
+    margin: 15px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+a {
+    margin-left: 10px;
+
+}
+
+
+a.button15 {
+	position: relative;
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    background: rgb(245, 245, 245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+}
+
+a.button15:hover {
+    color: rgb(24, 24, 24);
+    border: 1px solid rgb(198, 198, 198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+a.button15:active {
+    color: rgb(51, 51, 51);
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(238, 238, 238) linear-gradient(rgb(238, 238, 238), rgb(224, 224, 224));
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1) inset;
+}
+
+table {
+    width: 100%;
+}
+
+.fullList {
+    margin-bottom: 100px;
+}
+
+img {
+    width: 200px;
+    /* margin-left: 50px; */
+    /* margin-top: 5px; */
+    margin: 15px;
+}
+
+html {
+    background-color: rgba(235, 235, 235, 0.54);
+}
